@@ -1,0 +1,14 @@
+.navbar {
+    width: 100%;
+    background-color: var(--white);
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+}
+
+.nav-link {
+    list-style: none;
+}
