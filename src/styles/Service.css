@@ -1,0 +1,28 @@
+.service {
+    display: flex;
+    gap: 1rem;
+}
+
+.fa-service-icon {
+    color: red;
+    font-size: 2rem;
+
+    background-color: var(--green);
+    padding: 1rem;
+}
+
+.service-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.service-title {
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+}
+
+.service-description {
+    font-size: 1rem;
+    font-weight: 400;
+}

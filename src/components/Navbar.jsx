@@ -1,25 +1,31 @@
 import React from 'react';
 import '../styles/Navbar.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 function Navbar() {
     return (
-        <div className='navbar'>
-            <div className="logo-section">
-                <h1>Back<span>Roads</span></h1>
-            </div>
+        <nav className='navbar'>
+            <div className="navbar-contents">
+                <div className="logo-section">
+                    <h1>Back<span>Roads</span></h1>
+                </div>
 
-            <ul className="nav-links">
-                <li className="nav-link">Home</li>
-                <li className="nav-link"> About</li>
-                <li className="nav-link">Services</li>
-                <li className="nav-link">Tours</li>
-            </ul>
+                <div className="nav-links">
+                    <a href='#Home' className="nav-link">Home</a>
+                    <a href='#About' className="nav-link"> About</a>
+                    <a href='#Services' className="nav-link">Services</a>
+                    <a href='#Featured' className="nav-link">Tours</a>
+                </div>
 
-            <div className="socials-section">
-                <img src="" alt="" className="social-icon" />
-                <img src="" alt="" className="social-icon" />
+                <div className="socials-section">
+                    <FontAwesomeIcon className='fa-icon' icon={faFacebook} />
+                    <FontAwesomeIcon className='fa-icon' icon={faTwitter} />
+                    <FontAwesomeIcon className='fa-icon' icon={faLinkedin} />
+                </div>
             </div>
-        </div>
+        </nav>
     );
 }
 

@@ -1,14 +1,50 @@
 .navbar {
-    width: 100%;
-    background-color: var(--white);
-    padding: 1rem 10rem;
-    display: flex;
-    justify-content: space-between;
-
     position: fixed;
     top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+
+    padding: 1rem 10rem;
+}
+
+.navbar-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section h1 {
+    font-size: 1.75rem;
+    letter-spacing: 0.25rem;
+}
+
+.logo-section h1 > span {
+    color: var(--green);
+}
+
+.nav-links {
+    display: flex;
+    gap: 0.8rem;
 }
 
 .nav-link {
-    list-style: none;
+    color: var(--gray);
+    letter-spacing: 0.25rem;
+    text-decoration: none;
+}
+
+.socials-section {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.fa-icon {
+    color: var(--green);
+    font-size: 1.25rem;
+}
+
+.fa-icon:hover {
+    cursor: pointer;
 }

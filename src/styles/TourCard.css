@@ -1,0 +1,18 @@
+.tour-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.tour-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.tour-details-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-location {
+    display: flex;
+}

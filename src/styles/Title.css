@@ -1,0 +1,10 @@
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.section-title > span {
+    color: var(--green);
+}

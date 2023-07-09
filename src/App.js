@@ -1,17 +1,21 @@
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import AboutUs from './components/AboutUs';
-
-import './styles/App.css';
+import Navbar from '../src/components/Navbar';
+import HeroSection from '../src/components/HeroSection';
+import AboutUs from '../src/components/AboutUs';
+import Services from '../src/components/Services';
+import Featured from '../src/components/Featured';
 
 export default function App() {
     return (
-        <div className="App">
+        <>
             <Navbar />
 
             <HeroSection />
 
             <AboutUs />
-        </div>
+
+            <Services />
+
+            <Featured />
+        </>
     );
 }

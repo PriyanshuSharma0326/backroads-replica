@@ -1,0 +1,57 @@
+.about-us {
+    padding: 5rem 10rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-us-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-image-container {
+    width: 45%;
+    line-height: 0;
+    border: 0.5rem solid var(--green);
+}
+
+.about-us-image {
+    width: 100%;
+
+    position: relative;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+
+.about-us-text-container {
+    margin-top: 1.5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about-us-title {
+    font-size: 1.75rem;
+    letter-spacing: 0.25rem;
+}
+
+.about-us-description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.read-more-button {
+    width: fit-content;
+    color: var(--white);
+    background-color: var(--green);
+    outline: none;
+    border: none;
+
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding: 0.65rem 0.9rem;
+    cursor: pointer;
+}
