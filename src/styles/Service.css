@@ -4,6 +4,10 @@
     gap: 1rem;
 }
 
+.service-icon-container {
+    line-height: 0;
+}
+
 .fa-service-icon {
     color: var(--dark-green);
     font-size: 2rem;
@@ -28,4 +32,24 @@
     font-size: 1rem;
     font-weight: 400;
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .service {
+        gap: 0.75rem;
+    }
+
+    .fa-service-icon {
+        font-size: 1.65rem;
+        padding: 0.8rem;
+    }
+
+    .service-title {
+        font-size: 0.85rem;
+        letter-spacing: 0.2rem;
+    }
+    
+    .service-description {
+        font-size: 0.75rem;
+    }
 }

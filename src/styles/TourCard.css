@@ -67,3 +67,22 @@
 .map-icon {
     color: var(--green);
 }
+
+@media screen and (max-width: 1024px) {
+    .tour-details {
+        padding: 0.9rem 1.2rem;
+    }
+
+    .tour-card-description,
+    .tour-duration,
+    .tour-price,
+    .location 
+    {
+        font-size: 0.9rem;
+    }
+
+    .tour-details-main {
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+    }
+}

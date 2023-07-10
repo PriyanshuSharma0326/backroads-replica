@@ -7,3 +7,9 @@
     gap: 2rem;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px) {
+    .services-container {
+        gap: 1.25rem;
+    }
+}

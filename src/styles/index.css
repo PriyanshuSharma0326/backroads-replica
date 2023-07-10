@@ -54,3 +54,19 @@ body {
 .section-title > span {
     color: var(--green);
 }
+
+@media screen and (max-width: 1024px) {
+    .about-us, 
+    .services, 
+    .featured, 
+    .footer
+    {
+        padding: 4rem;
+        gap: 2rem;
+    }
+
+    .section-title {
+        font-size: 2.25rem;
+        letter-spacing: 0.25rem;
+    }
+}

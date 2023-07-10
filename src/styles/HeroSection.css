@@ -73,3 +73,23 @@
     color: var(--green);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+    .hero-title {
+        line-height: 3rem;
+        font-size: 3rem;
+    }
+
+    .hero-description {
+        padding: 0 16rem;
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .explore-button {
+        padding: 1rem 1.25rem;
+        font-size: 1rem;
+        letter-spacing: 0.15rem;
+    }
+}
