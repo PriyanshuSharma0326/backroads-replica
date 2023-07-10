@@ -16,7 +16,7 @@ function HeroSection() {
                 </h1>
 
                 <div className="hero-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa mollitia sit esse, necessitatibus, dolore modi voluptatibus quas est optio quia cum voluptas!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, architecto.
                 </div>
 
                 <button className="explore-button">

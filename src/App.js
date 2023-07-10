@@ -3,6 +3,7 @@ import HeroSection from '../src/components/HeroSection';
 import AboutUs from '../src/components/AboutUs';
 import Services from '../src/components/Services';
 import Featured from '../src/components/Featured';
+import Footer from './components/Footer';
 
 export default function App() {
     return (
@@ -16,6 +17,8 @@ export default function App() {
             <Services />
 
             <Featured />
+
+            <Footer />
         </>
     );
 }

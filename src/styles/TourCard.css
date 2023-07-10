@@ -1,18 +1,69 @@
 .tour-card {
     display: flex;
     flex-direction: column;
+
+    background-color: #F0F0F0;
+}
+
+.tour-card-image-container {
+    width: 100%;
+    line-height: 0;
+}
+
+.tour-card-image {
+    width: 100%;
 }
 
 .tour-details {
     display: flex;
     flex-direction: column;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+}
+
+.tour-card-title {
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    color: var(--dark-green);
+}
+
+.tour-card-description {
+    color: var(--dark-green);
+    opacity: 0.8;
+}
+
+.tour-card-description,
+.tour-duration,
+.tour-price,
+.location 
+{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.tour-duration,
+.tour-price,
+.location 
+{
+    color: var(--green);
 }
 
 .tour-details-main {
     display: flex;
     justify-content: space-between;
+
+    font-size: 1rem;
+    font-weight: 400;
+
+    line-height: 1rem;
 }
 
 .tour-location {
     display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.map-icon {
+    color: var(--green);
 }

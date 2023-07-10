@@ -1,12 +1,4 @@
 .services {
-    padding: 5rem 10rem;
-
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.services {
     background-color: #F0F0F0;
 }
 

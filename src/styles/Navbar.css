@@ -18,6 +18,8 @@
 .logo-section h1 {
     font-size: 1.75rem;
     letter-spacing: 0.25rem;
+    color: var(--dark-green);
+    cursor: pointer;
 }
 
 .logo-section h1 > span {
@@ -31,6 +33,7 @@
 
 .nav-link {
     color: var(--gray);
+    opacity: 0.9;
     letter-spacing: 0.25rem;
     text-decoration: none;
 }

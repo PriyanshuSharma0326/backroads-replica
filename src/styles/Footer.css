@@ -1,0 +1,41 @@
+.footer {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-green);
+}
+
+.footer-links {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.footer-link {
+    color: var(--white);
+    opacity: 0.9;
+    letter-spacing: 0.25rem;
+    text-decoration: none;
+}
+
+.meta {
+    display: flex;
+    gap: 1rem;
+    color: var(--white);
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-icon {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+}
+
+.copyright1, .copyright2 {
+    letter-spacing: 0.25rem;
+}

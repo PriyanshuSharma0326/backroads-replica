@@ -4,21 +4,21 @@ import '../styles/TourCard.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMap } from '@fortawesome/free-solid-svg-icons';
 
-function TourCard({card_title, location, duration, price}) {
+function TourCard({image, title, description, location, duration, price}) {
     return (
         <div className='tour-card'>
             <div className="tour-card-image-container">
-                <img src="" alt="" className="tour-card-image" />
+                <img src={image} alt="" className="tour-card-image" />
             </div>
 
             <div className="tour-details">
-                <h1 className="tour-card-title">{card_title}</h1>
+                <h1 className="tour-card-title">{title}</h1>
 
-                <h2 className="tour-card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempora eius voluptate necessitatibus tenetur molestias!</h2>
+                <h2 className="tour-card-description">{description}</h2>
 
                 <div className="tour-details-main">
                     <div className="tour-location">
-                        <FontAwesomeIcon icon={faMap} />
+                        <FontAwesomeIcon className='map-icon' icon={faMap} />
                         <h3 className="location">{location}</h3>
                     </div>
 
