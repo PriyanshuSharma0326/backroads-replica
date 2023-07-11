@@ -68,3 +68,18 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 426px) {
+    .about-us-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .about-us-image-container {
+        width: 95%;
+    }
+
+    .about-us-text-container {
+        width: 100%;
+    }
+}

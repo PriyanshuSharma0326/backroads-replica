@@ -3,6 +3,7 @@ import '../styles/Navbar.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
     return (
@@ -23,6 +24,10 @@ function Navbar() {
                     <FontAwesomeIcon className='fa-icon' icon={faFacebook} />
                     <FontAwesomeIcon className='fa-icon' icon={faTwitter} />
                     <FontAwesomeIcon className='fa-icon' icon={faLinkedin} />
+                </div>
+
+                <div className="scrollbar-container">
+                    <FontAwesomeIcon className='fa-bars' icon={faBars} />
                 </div>
             </div>
         </nav>

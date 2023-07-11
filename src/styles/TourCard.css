@@ -86,3 +86,20 @@
         line-height: 0.9rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .tour-card-description,
+    .tour-duration,
+    .tour-price,
+    .location 
+    {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .tour-details-main {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+}

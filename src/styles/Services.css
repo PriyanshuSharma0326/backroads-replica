@@ -13,3 +13,9 @@
         gap: 1.25rem;
     }
 }
+
+@media screen and (max-width: 426px) {
+    .services-container {
+        flex-direction: column;
+    }
+}

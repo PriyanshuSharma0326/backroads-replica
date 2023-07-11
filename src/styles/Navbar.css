@@ -43,12 +43,16 @@
     gap: 0.8rem;
 }
 
-.fa-icon {
+.fa-icon, .fa-bars {
     color: var(--green);
     font-size: 1.25rem;
 }
 
-.fa-icon:hover {
+.scrollbar-container {
+    display: none;
+}
+
+.fa-icon:hover, .fa-bars:hover {
     cursor: pointer;
 }
 
@@ -69,5 +73,21 @@
     .nav-link {
         letter-spacing: 0.2rem;
         font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .nav-links, .socials-section {
+        display: none;
+    }
+
+    .scrollbar-container {
+        display: flex;
     }
 }

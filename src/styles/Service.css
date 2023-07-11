@@ -53,3 +53,43 @@
         font-size: 0.75rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .service {
+        gap: 0.5rem;
+    }
+
+    .fa-service-icon {
+        font-size: 1.5rem;
+        padding: 0.75rem;
+    }
+
+    .service-title {
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+    }
+    
+    .service-description {
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .service {
+        gap: 0.8rem;
+    }
+
+    .fa-service-icon {
+        font-size: 1.75rem;
+        padding: 0.85rem;
+    }
+
+    .service-title {
+        font-size: 0.9rem;
+        letter-spacing: 0.2rem;
+    }
+    
+    .service-description {
+        font-size: 0.8rem;
+    }
+}

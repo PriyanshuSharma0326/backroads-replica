@@ -93,3 +93,33 @@
         letter-spacing: 0.15rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .hero-container {
+        height: 60vh;
+    }
+
+    .hero-section {
+        background-position: center;
+    }
+
+    .hero-title {
+        line-height: 3.5rem;
+        font-size: 3.5rem;
+    }
+
+    .hero-description {
+        padding: 0 8rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .hero-title {
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+
+    .hero-description {
+        padding: 0 2rem;
+    }
+}
