@@ -67,3 +67,15 @@
         letter-spacing: 0.2rem;
     }
 }
+
+@media screen and (max-width: 426px) {
+    .meta {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .copyright1, .copyright2 {
+        letter-spacing: 0.1rem;
+    }
+}
